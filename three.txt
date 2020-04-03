@@ -1,0 +1,43 @@
+#create one folder open gitbash on that folder 
+1)git --version
+2)git config __global user.name"pavani"
+3)git config __global user.email"durga.k@apssdc.in"
+4)git config user.name
+5)git config user.email
+6)ls
+7)git init
+8)ls -a
+#one.txt:
+
+9)touch one.txt
+10)cat one.txt
+-add Big Picture.png in ur folder
+12)git add one.txt Big\ Picture.png
+13)git add .
+14)git status
+15)git rm --cached Big\ Picture.png
+16)git status
+17)git add .
+18)git status
+19)git commit -m "first commit"
+20)git log
+21)git log --reverse
+22)git log --oneline
+23)git log --oneline --reverse
+
+#two.txt:
+24)touch two.txt
+25)git add .
+26)git status
+27)git commit -m "second commit"
+28)git log
+
+#third.txt:
+24)touch two.txt
+25)git add .
+26)git status
+27)git commit -m "third commit"
+28)git log
+29)git log --oneline
+30)git checkout b2903df
+31)git log
